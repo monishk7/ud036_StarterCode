@@ -18,6 +18,9 @@ class Movie:
             storyline (str): Movie Storyline
             poster_image_url (str): url of image/poster
             trailer_youtube_url (str): link to youtube
+
+        Returns:
+            instance of the Movie class
         """
         self.title = title
         self.storyline = story
